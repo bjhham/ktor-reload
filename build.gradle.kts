@@ -1,7 +1,7 @@
 
 plugins {
     alias(libs.plugins.kotlin.jvm)
-    id("io.ktor.plugin") version "3.7.0-dev-mode-plus-eap-202"
+    id("io.ktor.plugin") version "3.7.0-dev-mode-plus-eap-203"
 }
 
 group = "com.acme"
@@ -12,7 +12,7 @@ application {
 }
 
 kotlin {
-    jvmToolchain(21)
+    jvmToolchain(25)
 }
 dependencies {
     implementation(ktorLibs.server.core)
